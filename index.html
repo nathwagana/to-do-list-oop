@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List - OOP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="add-container">
+            <h2>Adiciona suas tarefas:</h2>
+            <form action="">
+                <input type="text" name="task" id="task" placeholder="O que você tem para fazer?">
+                <button type="submit" id="add"><i class="fa fa-plus"></i></button>
+            </form>
+        </div>
+        <div id="tasks-container">
+            <h2>Veja suas tarefas:</h2>
+            <!--TEMPLATE-->
+            <div class="task hide">
+                <i class="fa fa-check"></i>
+                <span class="task-title">Título da Tarefa</span>
+                <i class="fa fa-trash"></i>
+            </div>
+            <!--FIM TEMPLATE--> 
+            <p id="empty-tasks"><img src="https://www.sobiologia.com.br/figuras/Curiosidades/cachorro_feliz1.gif"></br></br>Good Job, não há nenhuma tarefa pendente.</img></p>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
